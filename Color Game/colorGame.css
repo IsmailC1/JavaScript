@@ -1,5 +1,7 @@
 body{
     background-color: #232323;
+    margin: 0;
+    font-family: "Montserrat", "Avenir";
 }
 
 .square {
@@ -14,9 +16,30 @@ body{
     max-width: 600px;
 }
 h1{
+    line-height: 1.1;
     color: white;
+    text-align: center;
+    font-weight: normal;
+    background: steelblue;
+    margin: 0;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+#colorDisplay{
+font-size: 200%
 }
 
-span{
+/* span{
     color: white;
+} */
+#stripe {
+    background: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected{
+background: blue;
+
 }
