@@ -10,10 +10,13 @@ body{
     padding-bottom: 30%;
     float: left;
     margin: 1.66%;
+    border-radius: 15%;
+    transition: background 0.6s;
 }
 #container{
-    margin: 0 auto;
+    margin: 20px auto;
     max-width: 600px;
+  
 }
 h1{
     line-height: 1.1;
@@ -40,6 +43,28 @@ font-size: 200%
 }
 
 .selected{
-background: blue;
+background: rgb(77, 77, 240);
 
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color:steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    outline: none;
+}
+#message{
+    display: inline-block;
+    width: 7%
+}
+
+button:hover{
+ color:white;
+ background:steelblue;
 }
